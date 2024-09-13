@@ -82,7 +82,7 @@ This application uses the MVVM UI architecture with modular approach.
 Memory usage:
 
 <p align="center"> 
-<img src="https://github.com/user-attachments/assets/10f647d1-24dd-4bc6-9f89-8023dcb33698" width="700" height="450">
+<img src="https://github.com/user-attachments/assets/10f647d1-24dd-4bc6-9f89-8023dcb33698" width="700" height="300">
 </p>
 
 Memory Leaks:
