@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F025D4C02C9312C10033B37E /* Common in Frameworks */ = {isa = PBXBuildFile; productRef = F025D4BF2C9312C10033B37E /* Common */; };
+		F025D4C32C9312CC0033B37E /* Data in Frameworks */ = {isa = PBXBuildFile; productRef = F025D4C22C9312CC0033B37E /* Data */; };
+		F025D4C92C9312F10033B37E /* Router in Frameworks */ = {isa = PBXBuildFile; productRef = F025D4C82C9312F10033B37E /* Router */; };
+		F025D4CC2C9312FC0033B37E /* EventDetail in Frameworks */ = {isa = PBXBuildFile; productRef = F025D4CB2C9312FC0033B37E /* EventDetail */; };
+		F025D4CF2C9313060033B37E /* EventList in Frameworks */ = {isa = PBXBuildFile; productRef = F025D4CE2C9313060033B37E /* EventList */; };
+		F025D4D72C9385230033B37E /* Domain in Frameworks */ = {isa = PBXBuildFile; productRef = F025D4D62C9385230033B37E /* Domain */; };
+		F025D4E02C943E0A0033B37E /* Domain in Frameworks */ = {isa = PBXBuildFile; productRef = F025D4DF2C943E0A0033B37E /* Domain */; };
+		F025D4E62C9491520033B37E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F025D4E52C9491520033B37E /* Kingfisher */; };
+		F0A5C3CA2C92EED7000BCD25 /* EcabTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A5C3C92C92EED7000BCD25 /* EcabTaskApp.swift */; };
+		F0A5C3CE2C92EED9000BCD25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0A5C3CD2C92EED9000BCD25 /* Assets.xcassets */; };
+		F0A5C3D12C92EED9000BCD25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0A5C3D02C92EED9000BCD25 /* Preview Assets.xcassets */; };
+		F0A5C3E42C930319000BCD25 /* Common in Frameworks */ = {isa = PBXBuildFile; productRef = F0A5C3E32C930319000BCD25 /* Common */; };
+		F0A5C3E72C930337000BCD25 /* Data in Frameworks */ = {isa = PBXBuildFile; productRef = F0A5C3E62C930337000BCD25 /* Data */; };
+		F0A5C3ED2C930352000BCD25 /* Router in Frameworks */ = {isa = PBXBuildFile; productRef = F0A5C3EC2C930352000BCD25 /* Router */; };
+		F0A5C3F02C93035A000BCD25 /* EventDetail in Frameworks */ = {isa = PBXBuildFile; productRef = F0A5C3EF2C93035A000BCD25 /* EventDetail */; };
+		F0A5C3F32C930362000BCD25 /* EventList in Frameworks */ = {isa = PBXBuildFile; productRef = F0A5C3F22C930362000BCD25 /* EventList */; };
+		F0A5C3F42C931163000BCD25 /* Common in Resources */ = {isa = PBXBuildFile; fileRef = F0A5C3DB2C92F460000BCD25 /* Common */; };
+		F0A5C3F52C9311E4000BCD25 /* EventList in Resources */ = {isa = PBXBuildFile; fileRef = F0A5C3D92C92F40C000BCD25 /* EventList */; };
+		F0A5C3F62C9311F5000BCD25 /* EventDetail in Resources */ = {isa = PBXBuildFile; fileRef = F0A5C3DA2C92F42A000BCD25 /* EventDetail */; };
+		F0A5C3F72C93122B000BCD25 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = F0A5C3DE2C92F80D000BCD25 /* Data */; };
+		F0A5C3F82C931234000BCD25 /* Domain in Resources */ = {isa = PBXBuildFile; fileRef = F0A5C3DD2C92F609000BCD25 /* Domain */; };
+		F0A5C3F92C93123F000BCD25 /* Router in Resources */ = {isa = PBXBuildFile; fileRef = F0A5C3DC2C92F4AB000BCD25 /* Router */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F0A5C3C62C92EED7000BCD25 /* EcabTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcabTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0A5C3C92C92EED7000BCD25 /* EcabTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcabTaskApp.swift; sourceTree = "<group>"; };
+		F0A5C3CD2C92EED9000BCD25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0A5C3D02C92EED9000BCD25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F0A5C3D92C92F40C000BCD25 /* EventList */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = EventList; path = Packages/Presentation/EventList; sourceTree = SOURCE_ROOT; };
+		F0A5C3DA2C92F42A000BCD25 /* EventDetail */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = EventDetail; path = Packages/Presentation/EventDetail; sourceTree = SOURCE_ROOT; };
+		F0A5C3DB2C92F460000BCD25 /* Common */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Common; path = Packages/Common; sourceTree = SOURCE_ROOT; };
+		F0A5C3DC2C92F4AB000BCD25 /* Router */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Router; path = Packages/Router; sourceTree = SOURCE_ROOT; };
+		F0A5C3DD2C92F609000BCD25 /* Domain */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Domain; path = Packages/Domain; sourceTree = SOURCE_ROOT; };
+		F0A5C3DE2C92F80D000BCD25 /* Data */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Data; path = Packages/Data; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0A5C3C32C92EED7000BCD25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0A5C3ED2C930352000BCD25 /* Router in Frameworks */,
+				F0A5C3E42C930319000BCD25 /* Common in Frameworks */,
+				F025D4CC2C9312FC0033B37E /* EventDetail in Frameworks */,
+				F025D4C92C9312F10033B37E /* Router in Frameworks */,
+				F0A5C3F02C93035A000BCD25 /* EventDetail in Frameworks */,
+				F025D4D72C9385230033B37E /* Domain in Frameworks */,
+				F025D4E02C943E0A0033B37E /* Domain in Frameworks */,
+				F0A5C3E72C930337000BCD25 /* Data in Frameworks */,
+				F025D4E62C9491520033B37E /* Kingfisher in Frameworks */,
+				F0A5C3F32C930362000BCD25 /* EventList in Frameworks */,
+				F025D4C02C9312C10033B37E /* Common in Frameworks */,
+				F025D4CF2C9313060033B37E /* EventList in Frameworks */,
+				F025D4C32C9312CC0033B37E /* Data in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F025D4D02C934AAA0033B37E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0A5C3BD2C92EED7000BCD25 = {
+			isa = PBXGroup;
+			children = (
+				F0A5C3D72C92EF29000BCD25 /* Packages */,
+				F0A5C3C82C92EED7000BCD25 /* EcabTask */,
+				F0A5C3C72C92EED7000BCD25 /* Products */,
+				F025D4D02C934AAA0033B37E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F0A5C3C72C92EED7000BCD25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0A5C3C62C92EED7000BCD25 /* EcabTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0A5C3C82C92EED7000BCD25 /* EcabTask */ = {
+			isa = PBXGroup;
+			children = (
+				F0A5C3C92C92EED7000BCD25 /* EcabTaskApp.swift */,
+				F0A5C3CD2C92EED9000BCD25 /* Assets.xcassets */,
+				F0A5C3CF2C92EED9000BCD25 /* Preview Content */,
+			);
+			path = EcabTask;
+			sourceTree = "<group>";
+		};
+		F0A5C3CF2C92EED9000BCD25 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F0A5C3D02C92EED9000BCD25 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F0A5C3D72C92EF29000BCD25 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				F0A5C3DE2C92F80D000BCD25 /* Data */,
+				F0A5C3DD2C92F609000BCD25 /* Domain */,
+				F0A5C3DC2C92F4AB000BCD25 /* Router */,
+				F0A5C3DB2C92F460000BCD25 /* Common */,
+				F0A5C3D82C92F338000BCD25 /* Presentation */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		F0A5C3D82C92F338000BCD25 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				F0A5C3D92C92F40C000BCD25 /* EventList */,
+				F0A5C3DA2C92F42A000BCD25 /* EventDetail */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0A5C3C52C92EED7000BCD25 /* EcabTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0A5C3D42C92EED9000BCD25 /* Build configuration list for PBXNativeTarget "EcabTask" */;
+			buildPhases = (
+				F0A5C3C22C92EED7000BCD25 /* Sources */,
+				F0A5C3C32C92EED7000BCD25 /* Frameworks */,
+				F0A5C3C42C92EED7000BCD25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EcabTask;
+			packageProductDependencies = (
+				F0A5C3E32C930319000BCD25 /* Common */,
+				F0A5C3E62C930337000BCD25 /* Data */,
+				F0A5C3EC2C930352000BCD25 /* Router */,
+				F0A5C3EF2C93035A000BCD25 /* EventDetail */,
+				F0A5C3F22C930362000BCD25 /* EventList */,
+				F025D4BF2C9312C10033B37E /* Common */,
+				F025D4C22C9312CC0033B37E /* Data */,
+				F025D4C82C9312F10033B37E /* Router */,
+				F025D4CB2C9312FC0033B37E /* EventDetail */,
+				F025D4CE2C9313060033B37E /* EventList */,
+				F025D4D62C9385230033B37E /* Domain */,
+				F025D4DF2C943E0A0033B37E /* Domain */,
+				F025D4E52C9491520033B37E /* Kingfisher */,
+			);
+			productName = EcabTask;
+			productReference = F0A5C3C62C92EED7000BCD25 /* EcabTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0A5C3BE2C92EED7000BCD25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F0A5C3C52C92EED7000BCD25 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = F0A5C3C12C92EED7000BCD25 /* Build configuration list for PBXProject "EcabTask" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0A5C3BD2C92EED7000BCD25;
+			packageReferences = (
+				F025D4BE2C9312C10033B37E /* XCLocalSwiftPackageReference "Packages/Common" */,
+				F025D4C12C9312CC0033B37E /* XCLocalSwiftPackageReference "Packages/Data" */,
+				F025D4C72C9312F10033B37E /* XCLocalSwiftPackageReference "Packages/Router" */,
+				F025D4CA2C9312FC0033B37E /* XCLocalSwiftPackageReference "Packages/Presentation/EventDetail" */,
+				F025D4CD2C9313060033B37E /* XCLocalSwiftPackageReference "Packages/Presentation/EventList" */,
+				F025D4DE2C943E0A0033B37E /* XCLocalSwiftPackageReference "Packages/Domain" */,
+				F025D4E42C9491520033B37E /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = F0A5C3C72C92EED7000BCD25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0A5C3C52C92EED7000BCD25 /* EcabTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0A5C3C42C92EED7000BCD25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0A5C3D12C92EED9000BCD25 /* Preview Assets.xcassets in Resources */,
+				F0A5C3F82C931234000BCD25 /* Domain in Resources */,
+				F0A5C3CE2C92EED9000BCD25 /* Assets.xcassets in Resources */,
+				F0A5C3F72C93122B000BCD25 /* Data in Resources */,
+				F0A5C3F62C9311F5000BCD25 /* EventDetail in Resources */,
+				F0A5C3F42C931163000BCD25 /* Common in Resources */,
+				F0A5C3F52C9311E4000BCD25 /* EventList in Resources */,
+				F0A5C3F92C93123F000BCD25 /* Router in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0A5C3C22C92EED7000BCD25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0A5C3CA2C92EED7000BCD25 /* EcabTaskApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F0A5C3D22C92EED9000BCD25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0A5C3D32C92EED9000BCD25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0A5C3D52C92EED9000BCD25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EcabTask/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = EcabTask;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ecab.Task.EcabTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0A5C3D62C92EED9000BCD25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EcabTask/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = EcabTask;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ecab.Task.EcabTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0A5C3C12C92EED7000BCD25 /* Build configuration list for PBXProject "EcabTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0A5C3D22C92EED9000BCD25 /* Debug */,
+				F0A5C3D32C92EED9000BCD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0A5C3D42C92EED9000BCD25 /* Build configuration list for PBXNativeTarget "EcabTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0A5C3D52C92EED9000BCD25 /* Debug */,
+				F0A5C3D62C92EED9000BCD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		F025D4BE2C9312C10033B37E /* XCLocalSwiftPackageReference "Packages/Common" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/Common;
+		};
+		F025D4C12C9312CC0033B37E /* XCLocalSwiftPackageReference "Packages/Data" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/Data;
+		};
+		F025D4C72C9312F10033B37E /* XCLocalSwiftPackageReference "Packages/Router" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/Router;
+		};
+		F025D4CA2C9312FC0033B37E /* XCLocalSwiftPackageReference "Packages/Presentation/EventDetail" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/Presentation/EventDetail;
+		};
+		F025D4CD2C9313060033B37E /* XCLocalSwiftPackageReference "Packages/Presentation/EventList" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/Presentation/EventList;
+		};
+		F025D4DE2C943E0A0033B37E /* XCLocalSwiftPackageReference "Packages/Domain" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/Domain;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F025D4E42C9491520033B37E /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F025D4BF2C9312C10033B37E /* Common */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Common;
+		};
+		F025D4C22C9312CC0033B37E /* Data */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Data;
+		};
+		F025D4C82C9312F10033B37E /* Router */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Router;
+		};
+		F025D4CB2C9312FC0033B37E /* EventDetail */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = EventDetail;
+		};
+		F025D4CE2C9313060033B37E /* EventList */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = EventList;
+		};
+		F025D4D62C9385230033B37E /* Domain */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Domain;
+		};
+		F025D4DF2C943E0A0033B37E /* Domain */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Domain;
+		};
+		F025D4E52C9491520033B37E /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F025D4E42C9491520033B37E /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		F0A5C3E32C930319000BCD25 /* Common */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Common;
+		};
+		F0A5C3E62C930337000BCD25 /* Data */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Data;
+		};
+		F0A5C3EC2C930352000BCD25 /* Router */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Router;
+		};
+		F0A5C3EF2C93035A000BCD25 /* EventDetail */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = EventDetail;
+		};
+		F0A5C3F22C930362000BCD25 /* EventList */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = EventList;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F0A5C3BE2C92EED7000BCD25 /* Project object */;
+}
