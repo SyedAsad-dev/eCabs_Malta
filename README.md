@@ -69,7 +69,7 @@ This application uses the MVVM UI architecture with modular approach.
 
 ### Navigator Panel
 <p align="center"> 
-<img src="https://github.com/user-attachments/assets/0d94f053-1feb-42a8-95f1-5cb3b45ea5c2" width="558" height="500">
+<img src="https://github.com/user-attachments/assets/0d94f053-1feb-42a8-95f1-5cb3b45ea5c2" width="400" height="500">
 </p>
 
 ### Graph View
@@ -82,7 +82,7 @@ This application uses the MVVM UI architecture with modular approach.
 Memory usage:
 
 <p align="center"> 
-<img src="https://github.com/user-attachments/assets/10f647d1-24dd-4bc6-9f89-8023dcb33698" width="900" height="450">
+<img src="https://github.com/user-attachments/assets/10f647d1-24dd-4bc6-9f89-8023dcb33698" width="700" height="450">
 </p>
 
 Memory Leaks:
