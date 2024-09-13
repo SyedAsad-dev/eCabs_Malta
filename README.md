@@ -69,26 +69,26 @@ This application uses the MVVM UI architecture with modular approach.
 
 ### Navigator Panel
 <p align="center"> 
-<img src="https://github.com/user-attachments/assets/0d94f053-1feb-42a8-95f1-5cb3b45ea5c2" width="542" height="802">
+<img src="https://github.com/user-attachments/assets/0d94f053-1feb-42a8-95f1-5cb3b45ea5c2" width="558" height="672">
 </p>
 
 ### Graph View
 
 <p align="center"> 
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmo0oI5yIKJkk4M8nlseHz1xltdcg7VS4Msg&s" width="900" height="450">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmo0oI5yIKJkk4M8nlseHz1xltdcg7VS4Msg&s" width="250" height="250">
 </p>
 
 ## Performance States
 Memory usage:
 
 <p align="center"> 
-<img src="https://github.com/user-attachments/assets/10f647d1-24dd-4bc6-9f89-8023dcb33698" width="900" height="450">
+<img src="https://github.com/user-attachments/assets/10f647d1-24dd-4bc6-9f89-8023dcb33698" width="900" height="610">
 </p>
 
 Memory Leaks:
 
 <p align="center"> 
-<img src="https://github.com/user-attachments/assets/284b65d5-9c2f-4c20-827c-61987e8d080d" width="900" height="450">
+<img src="https://github.com/user-attachments/assets/284b65d5-9c2f-4c20-827c-61987e8d080d" width="900" height="250">
 </p>
 
 ## Multiple devices support => Screen shots:
@@ -105,9 +105,9 @@ iPhone 15 Pro
 
 iPad mini (6th generation)
 <p align="center"> 
-<img src="https://github.com/user-attachments/assets/0339190f-bcab-41d9-88c0-f9fbd3bf4818" width="270" height="560">
+<img src="https://github.com/user-attachments/assets/f92674e9-abcd-42cf-9be0-ef20af78c975" width="350" height="560">
 
-<img src="https://github.com/user-attachments/assets/d46ee283-03bc-43e6-8ad6-6a10761721cd" width="270" height="560">
+<img src="https://github.com/user-attachments/assets/d46ee283-03bc-43e6-8ad6-6a10761721cd" width="360" height="560">
 </p>
 
 ### Light mode
@@ -122,7 +122,7 @@ iPhone 15 Pro
 
 iPad mini (6th generation)
 <p align="center"> 
-<img src="https://github.com/user-attachments/assets/086b2982-eab5-4962-928f-d6bd36a63e24" width="270" height="560">
+<img src="https://github.com/user-attachments/assets/086b2982-eab5-4962-928f-d6bd36a63e24" width="350" height="560">
 
-<img src="https://github.com/user-attachments/assets/f5844637-daa8-46af-a16e-f01d359cd030" width="270" height="560">
+<img src="https://github.com/user-attachments/assets/f5844637-daa8-46af-a16e-f01d359cd030" width="350" height="560">
 </p>
