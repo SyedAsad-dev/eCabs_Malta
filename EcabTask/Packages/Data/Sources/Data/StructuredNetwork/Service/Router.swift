@@ -29,7 +29,7 @@ class Router<EndPoint: EndPointType>: NetworkRouter {
     
     fileprivate func buildRequest(from route: EndPoint) throws -> URLRequest {
         
-        var request = URLRequest(url: route.requestURL, cachePolicy: .reloadIgnoringLocalAndRemoteCacheData, timeoutInterval: 30.0)
+        var request = URLRequest(url: route.requestURL, cachePolicy: .reloadIgnoringLocalAndRemoteCacheData, timeoutInterval: 3.0)
         
         request.httpMethod = route.httpMethod.rawValue
         
