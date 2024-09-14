@@ -13,7 +13,7 @@ Swift Assessment Test
 
 
 ## Setup Configs
-- Checkout master branch to run latest version
+- Checkout main branch to run latest version
 - Open the project by double clicking the `EcabTask.xcodeproj` file
 - Select the build scheme which can be found right after the stop button on the top left of the IDE
 - [Command(cmd)] + R - Run app
