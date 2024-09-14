@@ -15,7 +15,8 @@ let package = Package(
             targets: ["EventDetail"]),
     ],
     dependencies: [
-     .package(path: "../../Common")
+     .package(path: "../../Common"),
+     .package(path: "../../Domain")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -24,6 +25,7 @@ let package = Package(
             name: "EventDetail",
             dependencies: [
               .product(name: "Common", package: "Common"),
+              .product(name: "Domain", package: "Domain")
             ])
     ]
 )

@@ -30,12 +30,8 @@ extension EventListViewModel {
     
     @MainActor
     func updateEventListBasedOnFilter(selectedItem: String) {
-            selectedEventType = selectedItem
-           if selectedEventType == "All" {
-               self.filteredList = self.eventsList
-           } else {
-               self.filteredList = self.eventsList.filter { $0.type == selectedEventType }
-           }
+        selectedEventType = selectedItem
+        filteredList = (selectedEventType == "All") ? eventsList : eventsList.filter { $0.type == selectedEventType }
         self.filterTypes = filterTypes
        }
     
@@ -44,19 +40,14 @@ extension EventListViewModel {
         fetchTask?.cancel()
         fetchTask = Task {
             do {
-                try await fetchEvents()
-                // Hit the API every 10 second
                 while !Task.isCancelled {
-                    do {
-                        // Wait for 10 seconds before the next API call
-                        try await Task.sleep(nanoseconds: 10 * 1_000_000_000) // 10 seconds delay
-                        try await fetchEvents()
-                        
-                    } catch {
-                        stopFetching()
-                    }
+                    try await fetchEvents()
+                    try await Task.sleep(nanoseconds: 10 * 1_000_000_000) // 10 seconds delay
                 }
-            }  catch {
+            } catch is CancellationError {
+                stopFetching()
+            } catch {
+                // Handle other errors if needed
                 stopFetching()
             }
         }

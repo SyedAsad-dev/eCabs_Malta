@@ -14,7 +14,6 @@
 		F025D4CF2C9313060033B37E /* EventList in Frameworks */ = {isa = PBXBuildFile; productRef = F025D4CE2C9313060033B37E /* EventList */; };
 		F025D4D72C9385230033B37E /* Domain in Frameworks */ = {isa = PBXBuildFile; productRef = F025D4D62C9385230033B37E /* Domain */; };
 		F025D4E02C943E0A0033B37E /* Domain in Frameworks */ = {isa = PBXBuildFile; productRef = F025D4DF2C943E0A0033B37E /* Domain */; };
-		F025D4E62C9491520033B37E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F025D4E52C9491520033B37E /* Kingfisher */; };
 		F0A5C3CA2C92EED7000BCD25 /* EcabTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A5C3C92C92EED7000BCD25 /* EcabTaskApp.swift */; };
 		F0A5C3CE2C92EED9000BCD25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0A5C3CD2C92EED9000BCD25 /* Assets.xcassets */; };
 		F0A5C3D12C92EED9000BCD25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0A5C3D02C92EED9000BCD25 /* Preview Assets.xcassets */; };
@@ -29,6 +28,8 @@
 		F0A5C3F72C93122B000BCD25 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = F0A5C3DE2C92F80D000BCD25 /* Data */; };
 		F0A5C3F82C931234000BCD25 /* Domain in Resources */ = {isa = PBXBuildFile; fileRef = F0A5C3DD2C92F609000BCD25 /* Domain */; };
 		F0A5C3F92C93123F000BCD25 /* Router in Resources */ = {isa = PBXBuildFile; fileRef = F0A5C3DC2C92F4AB000BCD25 /* Router */; };
+		F0CC76682C95B61F0081FA58 /* Domain in Frameworks */ = {isa = PBXBuildFile; productRef = F0CC76672C95B61F0081FA58 /* Domain */; };
+		F0CC766B2C95B69D0081FA58 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F0CC766A2C95B69D0081FA58 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,13 +52,14 @@
 			files = (
 				F0A5C3ED2C930352000BCD25 /* Router in Frameworks */,
 				F0A5C3E42C930319000BCD25 /* Common in Frameworks */,
+				F0CC766B2C95B69D0081FA58 /* Kingfisher in Frameworks */,
 				F025D4CC2C9312FC0033B37E /* EventDetail in Frameworks */,
 				F025D4C92C9312F10033B37E /* Router in Frameworks */,
 				F0A5C3F02C93035A000BCD25 /* EventDetail in Frameworks */,
 				F025D4D72C9385230033B37E /* Domain in Frameworks */,
 				F025D4E02C943E0A0033B37E /* Domain in Frameworks */,
 				F0A5C3E72C930337000BCD25 /* Data in Frameworks */,
-				F025D4E62C9491520033B37E /* Kingfisher in Frameworks */,
+				F0CC76682C95B61F0081FA58 /* Domain in Frameworks */,
 				F0A5C3F32C930362000BCD25 /* EventList in Frameworks */,
 				F025D4C02C9312C10033B37E /* Common in Frameworks */,
 				F025D4CF2C9313060033B37E /* EventList in Frameworks */,
@@ -161,7 +163,8 @@
 				F025D4CE2C9313060033B37E /* EventList */,
 				F025D4D62C9385230033B37E /* Domain */,
 				F025D4DF2C943E0A0033B37E /* Domain */,
-				F025D4E52C9491520033B37E /* Kingfisher */,
+				F0CC76672C95B61F0081FA58 /* Domain */,
+				F0CC766A2C95B69D0081FA58 /* Kingfisher */,
 			);
 			productName = EcabTask;
 			productReference = F0A5C3C62C92EED7000BCD25 /* EcabTask.app */;
@@ -197,8 +200,8 @@
 				F025D4C72C9312F10033B37E /* XCLocalSwiftPackageReference "Packages/Router" */,
 				F025D4CA2C9312FC0033B37E /* XCLocalSwiftPackageReference "Packages/Presentation/EventDetail" */,
 				F025D4CD2C9313060033B37E /* XCLocalSwiftPackageReference "Packages/Presentation/EventList" */,
-				F025D4DE2C943E0A0033B37E /* XCLocalSwiftPackageReference "Packages/Domain" */,
-				F025D4E42C9491520033B37E /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				F0CC76662C95B61F0081FA58 /* XCLocalSwiftPackageReference "Packages/Domain" */,
+				F0CC76692C95B69D0081FA58 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = F0A5C3C72C92EED7000BCD25 /* Products */;
 			projectDirPath = "";
@@ -462,14 +465,14 @@
 			isa = XCLocalSwiftPackageReference;
 			relativePath = Packages/Presentation/EventList;
 		};
-		F025D4DE2C943E0A0033B37E /* XCLocalSwiftPackageReference "Packages/Domain" */ = {
+		F0CC76662C95B61F0081FA58 /* XCLocalSwiftPackageReference "Packages/Domain" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = Packages/Domain;
 		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		F025D4E42C9491520033B37E /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+		F0CC76692C95B69D0081FA58 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/onevcat/Kingfisher";
 			requirement = {
@@ -508,11 +511,6 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = Domain;
 		};
-		F025D4E52C9491520033B37E /* Kingfisher */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F025D4E42C9491520033B37E /* XCRemoteSwiftPackageReference "Kingfisher" */;
-			productName = Kingfisher;
-		};
 		F0A5C3E32C930319000BCD25 /* Common */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Common;
@@ -532,6 +530,15 @@
 		F0A5C3F22C930362000BCD25 /* EventList */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = EventList;
+		};
+		F0CC76672C95B61F0081FA58 /* Domain */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Domain;
+		};
+		F0CC766A2C95B69D0081FA58 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F0CC76692C95B69D0081FA58 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
