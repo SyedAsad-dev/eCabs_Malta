@@ -1,6 +1,9 @@
 # eCabs_Malta
 Swift Assessment Test 
 
+## Known issues/limitations
+* Due to just new release of xcode 16, Navigation may not works on iPhone 16 devices.
+
 ## Building And Running The Project (Requirements)
 * Swift 5.0+
 * SwiftUI + UIKit 
