@@ -2,7 +2,10 @@
 Swift Assessment Test 
 
 ## Known issues/limitations
-* Due to just new release of xcode 16, Navigation may not work on some devices (iPhone 16 Pro, iPhone 16 Pro Max) devices.
+* Due to just new release of xcode 16, Navigation may not work on some devices (iPhone 16 Pro, iPhone 16 Pro Max (Portrait Mode)).
+
+## Resolved issues 
+* Xcode Navigation Issue Solved on iPhone 16 Pro/Pro Max's (Portrait Mode)
 
 ## Building And Running The Project (Requirements)
 * Swift 5.0+
