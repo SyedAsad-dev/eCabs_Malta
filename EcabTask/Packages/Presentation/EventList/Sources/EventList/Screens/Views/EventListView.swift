@@ -58,7 +58,7 @@ public struct EventListView: View {
            )
         }
         .navigationTitle("Events")
-        .navigationBarTitleDisplayMode(.large)
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
